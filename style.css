@@ -101,11 +101,6 @@ header h1 {
 
 }
 
-#memeContainer h2{
-    height: 100px;
-    width: 200px;
-    margin-top: 20px;
-}
 
 #memeContainer img {
     max-width: 100%;
