@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color:#f8f9fa;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    height:75%;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #212529;
+}
+
+.button-5 {
+    margin: 10px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #d00000;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5:hover {
+    background-color: #d00000;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: #9c0404;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+
+#memeContainer {
+    margin-top: 20px;
+    position: relative;
+    min-height: 200px;
+    height: 60vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+
+}
+
+#memeContainer img {
+    max-width: 100%;
+    max-height: 90%;    
+    border-radius: 5px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+
+.spinner {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+   
+}
+
+.hidden{
+    display: none;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
